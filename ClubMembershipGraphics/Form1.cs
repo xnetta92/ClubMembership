@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
+using Newtonsoft.Json;
 
 namespace ClubMembershipGraphics
 {
@@ -15,6 +17,11 @@ namespace ClubMembershipGraphics
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void listBox_members_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

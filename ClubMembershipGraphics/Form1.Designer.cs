@@ -44,6 +44,7 @@
             this.listBox_members.Name = "listBox_members";
             this.listBox_members.Size = new System.Drawing.Size(309, 450);
             this.listBox_members.TabIndex = 0;
+            this.listBox_members.SelectedIndexChanged += new System.EventHandler(this.listBox_members_SelectedIndexChanged);
             // 
             // groupBox1
             // 
